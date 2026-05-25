@@ -3,7 +3,7 @@ function lengthOfLastWord() {
     //Splitting the variable based on space
     let lastword = string.split(" ") 
     
-    return lastword[1].length
+    return lastword[lastword.length - 1].length
 
     
 }
